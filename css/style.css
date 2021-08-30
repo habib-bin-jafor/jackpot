@@ -1,0 +1,790 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+/*====================
+    common css here;
+=====================*/
+/*====================
+   variable css here;
+=====================*/
+/*====================
+   mixing css here;
+=====================*/
+/*=====================
+navbar part css start;
+=======================*/
+.navbar {
+  background: #150035 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-top: 32px;
+  padding-right: 54px;
+  font-weight: 600;
+  color: #944bff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #ff39dc;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ff39dc;
+}
+.navbar .cta-btn {
+  display: flex;
+}
+.navbar .cta-btn a {
+  text-decoration: none;
+  padding: 13px 30px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+  transition: all linear 0.9s;
+  -moz-transition: all linear 0.9s;
+  -o-transition: all linear 0.9s;
+  -ms-transition: all linear 0.9s;
+  -webkit-transition: all linear 0.9s;
+}
+.navbar .cta-btn a:first-of-type {
+  margin-right: 20px;
+}
+.navbar .cta-btn a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*=====================
+navbar part css ends;
+=======================*/
+/*=====================
+banner part css start;
+=======================*/
+#banner {
+  background: #150035;
+  padding-bottom: 30px;
+}
+#banner .banner-image .banner-image-slider {
+  margin-right: 100px;
+  position: relative;
+}
+#banner .banner-image .banner-image-slider img {
+  padding-top: 150px;
+  transform: scale(1.2);
+  position: absolute;
+  top: -20px;
+  left: -80px;
+}
+#banner .banner-text .banner-text-slider {
+  position: relative;
+}
+#banner .banner-text .banner-text-slider h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  padding-top: 153px;
+}
+#banner .banner-text .banner-text-slider h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 331px;
+  color: #fcb100;
+  background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 35px #4d0148);
+  margin-top: -55px;
+  margin-bottom: -30px;
+}
+#banner .banner-text .banner-text-slider p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#banner .banner-text .banner-text-slider a {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+  padding: 13px 30px;
+  display: inline-block;
+  margin-bottom: 100px;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#banner .banner-text .banner-text-slider a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+#banner .banner-bottom-slick .banner-bottom-slider .banner-bottom .banner-bottom-box {
+  width: 100%;
+  margin-top: 30px;
+  background: linear-gradient(to right, #9e4efc, #570dc8);
+  transform: scale(1);
+  padding: 0 40px !important;
+}
+#banner .banner-bottom-slick .banner-bottom-slider .banner-bottom .banner-bottom-box h4 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #e38321;
+  font-size: 50px;
+  background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 35px #4d0148);
+  padding-top: 32px;
+}
+#banner .banner-bottom-slick .banner-bottom-slider .banner-bottom .banner-bottom-box h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+#banner .banner-bottom-slick .banner-bottom-slider .banner-bottom .banner-bottom-box p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+/*=====================
+banner part css ends;
+=======================*/
+/*=====================
+games part css start;
+=======================*/
+#games {
+  background: #0b001b;
+}
+#games header h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 48px;
+  padding-top: 70px;
+  background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 35px #4d0148);
+  padding-bottom: 30px;
+}
+#games .games-item .games-item-slider {
+  margin-bottom: 100px;
+  position: relative;
+}
+#games .games-item .games-item-slider .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 0, 53, 0.85);
+  opacity: 0;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#games .games-item .games-item-slider .overlay:hover {
+  opacity: 1;
+}
+#games .games-item .games-item-slider .overlay .games-item-btn {
+  text-align: center;
+}
+#games .games-item .games-item-slider .overlay .games-item-btn h4 {
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 165px;
+}
+#games .games-item .games-item-slider .overlay .games-item-btn a {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+  padding: 13px 30px;
+  margin-top: 50px;
+  display: inline-block;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#games .games-item .games-item-slider .overlay .games-item-btn a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*=====================
+games part css ends;
+=======================*/
+/*=====================
+spin part css start;
+=======================*/
+#spin {
+  background: #150035;
+}
+#spin .spin-image img {
+  padding-top: 100px;
+}
+#spin .spin-text {
+  margin-left: 90px;
+}
+#spin .spin-text h3 {
+  padding-top: 135px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 0 25px #4d0148);
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 30px;
+}
+#spin .spin-text p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+#spin .spin-text .spin-btn {
+  margin-top: 50px !important;
+}
+#spin .spin-text .spin-btn a {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+  padding: 13px 30px;
+  display: inline-block;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#spin .spin-text .spin-btn a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*=====================
+spin part css ends;
+=======================*/
+/*=====================
+pricing part css start;
+=======================*/
+#pricing {
+  background: #0b001b;
+  padding-bottom: 50px;
+}
+#pricing header h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+  font-size: 48px;
+  margin-top: 90px;
+  margin-bottom: 76px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 25px #4d0148);
+}
+#pricing .pricing-text {
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#pricing .pricing-text:hover {
+  transform: translateY(-30px);
+}
+#pricing .pricing-text:hover .pricing-text-header {
+  opacity: 1;
+}
+#pricing .pricing-text .pricing-text-header {
+  opacity: 0;
+}
+#pricing .pricing-text .pricing-text-header h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 20px 144px;
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+  margin-bottom: 0;
+}
+#pricing .pricing-text .pricing-text-plan h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 32px;
+  margin-top: 16px;
+}
+#pricing .pricing-text .pricing-text-plan h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-top: -5px;
+  position: relative;
+}
+#pricing .pricing-text .pricing-text-plan h2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #222;
+  top: 87px;
+  left: 0;
+}
+#pricing .pricing-text .pricing-text-plan p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: -16px;
+  margin-bottom: 7px;
+}
+#pricing .pricing-text .pricing-text-item ul {
+  margin-top: 35px;
+  padding-bottom: 55px;
+}
+#pricing .pricing-text .pricing-text-item ul li {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+#pricing .pricing-text .pricing-text-btn {
+  position: relative;
+}
+#pricing .pricing-text .pricing-text-btn a {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+  padding: 13px 30px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -40px;
+  top: -19px;
+  left: 120px;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#pricing .pricing-text .pricing-text-btn a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 6px 0px 0px #661355;
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*=====================
+pricing part css ends;
+=======================*/
+/*=====================
+tournament part css start;
+=======================*/
+#tournament {
+  background: #150035;
+}
+#tournament .tournment-left .tournament-left-header h4 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 25px #4d0148);
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+#tournament .tournment-left .tournament-left-header h4::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  top: 160px;
+  left: 0;
+}
+#tournament .tournment-left .tournament-left-header .overlay-1 {
+  position: relative;
+}
+#tournament .tournment-left .tournament-left-header .overlay-1 img {
+  position: absolute;
+  top: -86px;
+  left: 0;
+  animation: 10s myanimate infinite;
+  animation-direction: alternate;
+}
+@keyframes myanimate {
+  from {
+    left: 0;
+  }
+  to {
+    left: 85%;
+  }
+}
+#tournament .tournment-left .tournament-left-accordion .accordion .accordion-item {
+  background: #150035;
+  color: #fff;
+}
+#tournament .tournment-left .tournament-left-accordion .accordion .accordion-item .accordion-header .accordion-button {
+  background: #150035;
+  color: #fff;
+}
+#tournament .tournament-right .tournament-right-header h4 {
+  position: relative;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 25px #4d0148);
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+#tournament .tournament-right .tournament-right-header h4::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #000;
+  top: 160px;
+  left: 0;
+}
+#tournament .tournament-right .tournament-right-header .overlay-2 {
+  position: relative;
+}
+#tournament .tournament-right .tournament-right-header .overlay-2 img {
+  position: absolute;
+  top: -36px;
+  left: 0;
+  animation: 10s myanimate infinite;
+  animation-direction: alternate;
+}
+@keyframes myanimate {
+  from {
+    left: 0;
+  }
+  to {
+    left: 80%;
+  }
+}
+#tournament .tournament-right .tournament-right-countdown .countdown-text h5 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 20px;
+}
+#tournament .tournament-right .tournament-right-countdown .countdown-counter {
+  display: flex;
+  justify-content: space-between;
+}
+#tournament .tournament-right .tournament-right-countdown .countdown-counter #countdown {
+  color: #fff;
+  border: 1px solid #e07e1e;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+#tournament .tournament-right .tournament-right-scroll {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll {
+  height: 200px;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name {
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name::before {
+  content: '';
+  width: 470px;
+  height: 1px;
+  position: absolute;
+  background: #000;
+  top: 38px;
+  left: 0;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-flag {
+  margin-left: 20px;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-rate {
+  margin-left: 70px;
+}
+#tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-rate p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+/*=====================
+tournament part css ends;
+=======================*/
+/*=====================
+payment part css start;
+=======================*/
+#payment {
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  margin-bottom: 5px;
+}
+#payment .payment-left {
+  padding-bottom: 30px;
+}
+#payment .payment-left .payment-left-header h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 32px;
+  color: #fff;
+  padding-top: 45px;
+}
+#payment .payment-left-form form input {
+  width: 523px;
+  background: transparent;
+  border: 1px solid #0b001b;
+  outline: 0;
+  padding-left: 15px;
+  line-height: 40px;
+}
+#payment .payment-left-form form input::placeholder {
+  text-transform: capitalize;
+  color: #000;
+}
+#payment .payment-left-form form button {
+  width: 48px;
+  color: #000;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #000;
+  margin-left: -5px;
+  line-height: 40px;
+}
+#payment .payment-right .payment-right-header h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 45px;
+  font-size: 32px;
+  color: #fff;
+}
+#payment .payment-right .payment-right-option {
+  padding-bottom: 15px;
+  padding-top: 3px;
+}
+#payment .payment-right .payment-right-option a {
+  margin-right: 10px;
+}
+/*=====================
+payment part css ends;
+=======================*/
+/*=====================
+footer part css start;
+=======================*/
+#footer {
+  padding-top: 60px;
+  background: #0b001b;
+  position: relative;
+}
+#footer .footer-about h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  padding-top: 55px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+#footer .footer-about p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+#footer .footer-about .footer-about-social {
+  margin-top: 30px;
+}
+#footer .footer-about .footer-about-social a {
+  background: linear-gradient(to top, #570dc8, #9e4efc);
+  box-shadow: 0px 6px 0px 0px #3a0090;
+  padding: 17px 20px;
+  color: #fff;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#footer .footer-about .footer-about-social a:hover {
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  box-shadow: 0px 3px 0px 0px #661355;
+}
+#footer .footer-link h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 32px;
+  padding-top: 55px;
+  padding-bottom: 10px;
+}
+#footer .footer-link .footer-link-list ul {
+  padding-left: 0;
+}
+#footer .footer-link .footer-link-list ul li {
+  padding-bottom: 10px;
+}
+#footer .footer-link .footer-link-list ul li a {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#footer .footer-link .footer-link-list ul li a:hover {
+  color: #ff39dc;
+}
+#footer .footer-security h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 32px;
+  padding-top: 55px;
+  padding-bottom: 10px;
+}
+#footer .footer-security img {
+  padding-bottom: 35px;
+}
+#footer .footer-security p {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+#footer .footer-copy {
+  padding-top: 33px;
+  padding-bottom: 20px;
+}
+#footer .footer-copy p {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+#footer .footer-line {
+  width: 100%;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  bottom: 73px;
+  left: 0;
+}
+#footer .footer-line-glow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: 15s myanimation infinite;
+  animation-direction: alternate;
+}
+@keyframes myanimation {
+  from {
+    left: 0;
+  }
+  to {
+    left: 85%;
+  }
+}
+/*=====================
+footer part css ends;
+=======================*/
