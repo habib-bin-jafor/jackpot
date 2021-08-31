@@ -130,11 +130,6 @@
         padding-top: 15px;
     }
 
-    element {
-        
-        top: 7881.85px;
-        
-    }
 
  }
 
@@ -258,12 +253,21 @@
     }
 
     #tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name::before {
-        width: 411px;
+        width: 300px;
         
     }
 
+    #tournament .tournament-right .tournament-right-header h4::before{
+        top: 208px;
+    }
+
+    
+
 
  }
+
+
+ 
 
 
 
