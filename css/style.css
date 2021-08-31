@@ -24,6 +24,23 @@ img {
 /*=====================
 navbar part css start;
 =======================*/
+.nav-fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #d6690f !important;
+  animation: smooth 1s linear;
+}
+@keyframes smooth {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
+}
 .navbar {
   background: #150035 !important;
 }
@@ -149,6 +166,9 @@ banner part css start;
   background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
   box-shadow: 0px 6px 0px 0px #661355;
   text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+#banner .banner-bottom-slick .banner-bottom-slider {
+  display: flex;
 }
 #banner .banner-bottom-slick .banner-bottom-slider .banner-bottom .banner-bottom-box {
   width: 100%;
@@ -787,4 +807,26 @@ footer part css start;
 }
 /*=====================
 footer part css ends;
+=======================*/
+/*=====================
+back to top css start;
+=======================*/
+.back-to-top {
+  line-height: 30px;
+  background: #be6012;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 9999;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: none;
+}
+.back-to-top i {
+  line-height: 30px;
+  text-align: center;
+}
+/*=====================
+back to top css ends;
 =======================*/

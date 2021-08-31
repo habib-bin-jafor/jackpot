@@ -85,6 +85,28 @@ img{
 /*=====================
 navbar part css start;
 =======================*/ 
+.nav-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: #d6690f !important;
+    animation: smooth 1s linear;
+
+}
+
+@keyframes smooth{
+    from{
+        top: -50px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+// nav fix css;
+
 
 .navbar{
     background: @bgcl1 !important;
@@ -196,6 +218,7 @@ banner part css start;
         }
         .banner-bottom-slick{
             .banner-bottom-slider{
+                display: flex;
                 .banner-bottom{
                     .banner-bottom-box{
                         width: 100%;
@@ -869,26 +892,35 @@ footer part css start;
 footer part css ends;
 =======================*/ 
 
-// section{
-//     #getting-started{
-//         padding: 50px 50px;
-//         background: rgb(187, 181, 181);
-//     }
-// }
-
-// #countdown-start{
-//     .countdown-start{
-//         display: flex;
-//         .time{
-//             padding: 20px 50px;
-//         }
-//     }
-//     .countdown-header{
-//         padding-top: 30px;
-//     }
-// }
 
 
+/*=====================
+back to top css start;
+=======================*/ 
+.back-to-top{
+    
+    line-height: 30px;
+    background: #be6012;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: none;
+}
+
+.back-to-top i{
+    text-align: center;
+    line-height: 30px;
+    text-align: center;
+    
+    
+}
 
 
+/*=====================
+back to top css ends;
+=======================*/ 
 

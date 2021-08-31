@@ -1,4 +1,6 @@
 
+
+
 // countdown js;
 
 var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
@@ -24,6 +26,7 @@ document.getElementById("demo").innerHTML = "EXPIRED";
 // countdown ;
 
 $(document).ready(function(){
+
       $(".banner-bottom-slider").slick({
           arrows: false,
         slidesToShow: 3,
@@ -71,6 +74,41 @@ $(document).ready(function(){
         smoothscroll: true,
 
             }); 
+
+            // back to top button;
+
+   $(window).scroll(function(){
+
+    // window scroll function;
+
+    var scrolling = $(this).scrollTop();
+
+    // to show or hide; 
+
+    if( scrolling > 350 ){
+      $('.back-to-top').fadeIn();
+    }
+    else{
+      $('.back-to-top').fadeOut();
+    }
+
+    // navfix ;
+
+    if(scrolling > 50 ){
+      $('nav').addClass('nav-fix');
+    }
+    else{
+      $('nav').removeClass('nav-fix');
+    }
+
+
+
+
+  });
+
+  // back to top button;
+
+
 
 
 
