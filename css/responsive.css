@@ -145,10 +145,10 @@
     }
 
     .navbar-light .navbar-toggler {
-        margin-top: 67px;
+        margin-top: 5px;
         position: static;
         right: 23px;
-        top: 8px; 
+        top: -4px; 
     }
 
     .navbar-collapse {
