@@ -18,6 +18,29 @@
     #banner .banner-text .banner-text-slider h1{
         font-size: 300px;
     }
+
+  
+
+    #pricing .pricing-text .pricing-text-btn a {
+        font-size: 18px;
+        left: 85px;
+    }
+
+    #tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name::before {
+        width: 344px;
+        
+    }
+
+    #payment .payment-left-form form input {
+        width: 400px;
+    }
+
+
+
+
+
+
+
  }
 
 /* large device respnsive ends */
@@ -46,6 +69,10 @@
 
         #pricing .pricing-text:hover {
             transform: translateY(-20px);
+        }
+
+        #tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name::before{
+            width: 531px;
         }
 
  }
@@ -206,6 +233,13 @@
         margin-left: 15px;
     }
 
+    #pricing .pricing-text .pricing-text-btn a {
+        font-size: 13px;
+        left: 110px;
+        
+    }
+
+
     #pricing .pricing-text{
         margin-bottom: 50px;
     }
@@ -223,10 +257,10 @@
         font-size: 13px;
     }
 
-
-
-
-
+    #tournament .tournament-right .tournament-right-scroll #niceScroll .tournament-scroll-name::before {
+        width: 411px;
+        
+    }
 
 
  }
